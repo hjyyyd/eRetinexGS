@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Build artifacts (CUDA extensions)
+build/
+*.so
+
+# Experiment I/O
+output/
+outputs/
+datasets/
+*.pth
+
+# OS
+.DS_Store

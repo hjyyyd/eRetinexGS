@@ -1,0 +1,10 @@
+# Core python deps (the conda env already covers torch / opencv / kornia / ...).
+lpips
+imageio
+scipy
+pandas
+
+# CUDA extensions (build after installing torch):
+./submodules/diff-gaussian-rasterization
+./submodules/simple-knn
+./submodules/nvdiffrast
